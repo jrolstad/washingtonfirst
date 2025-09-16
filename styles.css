@@ -588,7 +588,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #1f2937;
+    background: #064e3b;
     color: white;
     padding: 60px 0 20px;
 }
@@ -646,7 +646,7 @@ body {
 .social-links a {
     width: 40px;
     height: 40px;
-    background: #374151;
+    background: #065f46;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -657,11 +657,11 @@ body {
 }
 
 .social-links a:hover {
-    background: #065f46;
+    background: #047857;
 }
 
 .footer-bottom {
-    border-top: 1px solid #374151;
+    border-top: 1px solid #065f46;
     padding-top: 2rem;
     text-align: center;
     color: #9ca3af;
