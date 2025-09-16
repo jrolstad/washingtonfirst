@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const focusableElements = document.querySelectorAll('a, button, input, textarea, select');
     focusableElements.forEach(el => {
         el.addEventListener('focus', function() {
-            this.style.outline = '2px solid #1e40af';
+            this.style.outline = '2px solid #065f46';
             this.style.outlineOffset = '2px';
         });
         
@@ -213,7 +213,7 @@ scrollToTopBtn.style.cssText = `
     right: 20px;
     width: 50px;
     height: 50px;
-    background: #1e40af;
+    background: #065f46;
     color: white;
     border: none;
     border-radius: 50%;
@@ -222,7 +222,7 @@ scrollToTopBtn.style.cssText = `
     visibility: hidden;
     transition: all 0.3s ease;
     z-index: 1000;
-    box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+    box-shadow: 0 4px 12px rgba(6, 95, 70, 0.3);
 `;
 
 document.body.appendChild(scrollToTopBtn);
@@ -247,10 +247,10 @@ scrollToTopBtn.addEventListener('click', () => {
 // Add hover effect to scroll button
 scrollToTopBtn.addEventListener('mouseenter', () => {
     scrollToTopBtn.style.transform = 'scale(1.1)';
-    scrollToTopBtn.style.background = '#1d4ed8';
+    scrollToTopBtn.style.background = '#047857';
 });
 
 scrollToTopBtn.addEventListener('mouseleave', () => {
     scrollToTopBtn.style.transform = 'scale(1)';
-    scrollToTopBtn.style.background = '#1e40af';
+    scrollToTopBtn.style.background = '#065f46';
 });

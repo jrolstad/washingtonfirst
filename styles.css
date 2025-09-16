@@ -38,10 +38,33 @@ body {
     height: 70px;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.washington-silhouette {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(6, 95, 70, 0.2));
+    object-fit: contain;
+}
+
 .nav-logo h1 {
-    color: #1e40af;
+    color: #065f46;
     font-size: 1.5rem;
     font-weight: 700;
+    margin: 0;
+}
+
+.logo-container:hover .washington-silhouette {
+    transform: scale(1.05);
+}
+
+.logo-container:hover h1 {
+    color: #047857;
 }
 
 .nav-menu {
@@ -59,11 +82,11 @@ body {
 }
 
 .nav-link:hover {
-    color: #1e40af;
+    color: #065f46;
 }
 
 .cta-button {
-    background: #1e40af;
+    background: #065f46;
     color: white !important;
     padding: 0.5rem 1.5rem;
     border-radius: 6px;
@@ -71,7 +94,7 @@ body {
 }
 
 .cta-button:hover {
-    background: #1d4ed8;
+    background: #047857;
 }
 
 .hamburger {
@@ -90,7 +113,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    background: linear-gradient(135deg, #065f46 0%, #047857 100%);
     color: white;
     padding: 120px 0 80px;
     margin-top: 70px;
@@ -137,7 +160,7 @@ body {
 
 .btn-primary {
     background: white;
-    color: #1e40af;
+    color: #065f46;
 }
 
 .btn-primary:hover {
@@ -153,7 +176,7 @@ body {
 
 .btn-secondary:hover {
     background: white;
-    color: #1e40af;
+    color: #065f46;
 }
 
 .hero-graphic {
@@ -201,7 +224,7 @@ body {
 .card-image {
     width: 60px;
     height: 60px;
-    background: #1e40af;
+    background: #065f46;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -225,7 +248,7 @@ body {
 }
 
 .card-link {
-    color: #1e40af;
+    color: #065f46;
     text-decoration: none;
     font-weight: 600;
     display: inline-flex;
@@ -235,7 +258,7 @@ body {
 }
 
 .card-link:hover {
-    color: #1d4ed8;
+    color: #047857;
 }
 
 /* Latest News Section */
@@ -267,7 +290,7 @@ body {
 
 .news-image {
     height: 200px;
-    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    background: linear-gradient(135deg, #065f46, #047857);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,7 +303,7 @@ body {
 }
 
 .news-category {
-    background: #1e40af;
+    background: #065f46;
     color: white;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
@@ -316,13 +339,13 @@ body {
 }
 
 .news-link {
-    color: #1e40af;
+    color: #065f46;
     text-decoration: none;
     font-weight: 600;
 }
 
 .news-link:hover {
-    color: #1d4ed8;
+    color: #047857;
 }
 
 /* Events Section */
@@ -355,7 +378,7 @@ body {
 
 .event-date {
     text-align: center;
-    background: #1e40af;
+    background: #065f46;
     color: white;
     border-radius: 12px;
     padding: 1rem;
@@ -404,8 +427,8 @@ body {
 
 .btn-outline {
     background: transparent;
-    color: #1e40af;
-    border: 2px solid #1e40af;
+    color: #065f46;
+    border: 2px solid #065f46;
     padding: 0.5rem 1.5rem;
     border-radius: 6px;
     text-decoration: none;
@@ -414,14 +437,14 @@ body {
 }
 
 .btn-outline:hover {
-    background: #1e40af;
+    background: #065f46;
     color: white;
 }
 
 /* Join Movement Section */
 .join-movement {
     padding: 80px 0;
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    background: linear-gradient(135deg, #065f46 0%, #047857 100%);
     color: white;
     text-align: center;
 }
@@ -463,7 +486,7 @@ body {
 .form-group button {
     padding: 0.75rem 2rem;
     background: white;
-    color: #1e40af;
+    color: #065f46;
     border: none;
     border-radius: 6px;
     font-weight: 600;
@@ -521,7 +544,7 @@ body {
     display: block;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1e40af;
+    color: #065f46;
     line-height: 1;
 }
 
@@ -540,7 +563,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 8rem;
-    color: #1e40af;
+    color: #065f46;
     opacity: 0.8;
 }
 
@@ -562,7 +585,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #1e40af;
+    color: #065f46;
 }
 
 .footer-section h4 {
@@ -593,7 +616,7 @@ body {
 }
 
 .footer-section ul li a:hover {
-    color: #1e40af;
+    color: #065f46;
 }
 
 .social-links {
@@ -615,7 +638,7 @@ body {
 }
 
 .social-links a:hover {
-    background: #1e40af;
+    background: #065f46;
 }
 
 .footer-bottom {
@@ -627,6 +650,15 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .washington-silhouette {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .nav-logo h1 {
+        font-size: 1.25rem;
+    }
+    
     .hamburger {
         display: flex;
     }
@@ -698,6 +730,15 @@ body {
 }
 
 @media (max-width: 480px) {
+    .washington-silhouette {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .nav-logo h1 {
+        font-size: 1.1rem;
+    }
+    
     .hero-title {
         font-size: 2rem;
     }
@@ -763,7 +804,7 @@ html {
     left: 0;
     width: 0;
     height: 2px;
-    background: #1e40af;
+    background: #065f46;
     transition: width 0.3s ease;
 }
 
